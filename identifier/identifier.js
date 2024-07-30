@@ -1,6 +1,6 @@
-let name ="alok";
+let named ="alok";
 let userName ="singh";
-console.log(name);
+console.log(named);
 console.log("this is name" ,userName);
 // console.log(first)
 
