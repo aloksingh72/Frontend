@@ -30,3 +30,7 @@ Target attribute is used to specify where to open the link
 
 <!-- ====================HYPERLINKS PART-2 ===========-->
 
+
+
+<!-- crating jout own PAN network -->
+ipconfig se ipv4 address port mil jayega then phone me ipv4+type karna hai then live server ka path likna hai....
