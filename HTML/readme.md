@@ -13,7 +13,7 @@ it is used to link or connect the different doceuments to our web /html pages.
 2.Monitor the path or location on Hyper refernce where we want user to be redirected we use (hrf) attribute.
 
 --------absolute path of hyperlinks----------------
-<a href="https://www.goole.com" target =" ___blank">
+<a href="https://www.google.com" target =" ___blank">
 Google
 </a>
 
@@ -25,12 +25,12 @@ Google
 
 -------------TARGET ATTRIBUTE-----
 Target attribute is used to specify where to open the link
-  1)_self:-.open in the samw browser (default hota hai).
+  1)_self:-.open in the same browser (default hota hai).
   2. _blank :-open in different tab
 
 <!-- ====================HYPERLINKS PART-2 ===========-->
 
 
 
-<!-- crating jout own PAN network -->
+<!-- creating our own PAN network -->
 ipconfig se ipv4 address port mil jayega then phone me ipv4+type karna hai then live server ka path likna hai....
