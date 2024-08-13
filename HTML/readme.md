@@ -71,9 +71,9 @@ types of list
  to create a order list 
  we use <ol></ol> tag
  ---->to create a list we use <li></li> tag
- Syntax: <ol type="" start="" reversed>
+ <!-- Syntax: <ol type="" start="" reversed>
  <li> html</li>
-<li>css</li>
+<li>css</li> -->
  
  </ol>
 
