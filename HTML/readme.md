@@ -3,6 +3,9 @@
 2.
 3.Hyperlinks
 4.List 
+4.i.Description list 
+4.ii.Description Definition
+5.Table
 
 
 
@@ -108,7 +111,7 @@ types of list
 6. description term tag we have to write in description list tag.
           Syntax:-
           <dl>Description List
-            <dt> Description term -1
+            <dt> Description Term -1
             <dd> Description definition Tag</dd>
             </dt>
             <dt>Description Term-2
@@ -116,3 +119,39 @@ types of list
             </dt>
             </dl> 
 
+
+Dated 20/Aug/2024
+Tables
+1.it is a cllection of rows and columns
+2.Table is a grid organises in rows and columns much like a spreadsheet
+3.to create a table in html we use <table></table> tag.
+4.It is a container tag and Semantic tag( self explanatory) tag
+5.here we are creating table row by row
+6.to create a table we use <tr></tr> tag
+7.to create a cells ,HTML provide 2 tags
+      i) <TH></TH> Tag:- It is used to create a table heading cells
+      ii).<TD></TD> Tag:- It is used to create a table data cells.
+8.to provide title or caption to the table we use <caption></caption> tag.
+      
+9. Syntax:-
+        <table border="1">
+        <caption> Employee Salary Table</caption>
+
+        <tr>
+           <th>EMP ID</th>
+            <th>ENAME</th>
+            <th>SALARY</th>
+        </tr>
+        <tr>
+           <td>101</td>
+              <td>Amit</td>
+                 <td>500000</td>
+        </tr>
+         <tr>
+           <td>105</td>
+              <td>Mohan</td>
+                 <td>508920</td>
+        </tr>
+ Note:-  td tag  me do cheeze kaar sakte hai i)rowspan,ii)colspan for merging rows and columns respectively.        
+
+ 
