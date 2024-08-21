@@ -1,7 +1,7 @@
 <!-- content -->
 1.
 2.
-3.Hyperlinks
+3.Hyperlinks 
 4.List 
 4.i.Description list 
 4.ii.Description Definition
@@ -152,6 +152,38 @@ Tables
               <td>Mohan</td>
                  <td>508920</td>
         </tr>
- Note:-  td tag  me do cheeze kaar sakte hai i)rowspan,ii)colspan for merging rows and columns respectively.        
+ Note:-  td tag  me do cheeze kaar sakte hai i)rowspan,ii)colspan for merging rows and columns respectively.    
 
- 
+#Cell spacing
+
+in html we have 2 ways to span the cells 
+1. Rowspan:- Rowspan is an attribute used to span the cells on row basis
+2.Colspan:- Rowspan is an attribute used to span the cells on column basis.
+
+#Attributes of table tag
+
+1.Cellpadding:- to create space between the cells border and cell content is known as cellpadding
+2.Cellspacing:- to create space between outside the cell is known as cellspacing.
+3. Border :- It is used to provide border 
+4.rules="all"   (it collapse the boder of different -different cells border)
+5.align="center"
+
+
+
+ Dated --> 21/Aug/2024/Wednesday
+
+ # Thead Tag
+ It is a container tag.
+ 2. It represents top most part of our table.
+ 3.The top part of our table  we have to write with in <thead></thead> tag.
+
+# Tbody tag
+1.  It is a container tag.
+2. the remaining part of our table we have to write with<tbody></tbody> tag.
+
+# Tfoot tag
+1. It is a container tag.
+2. the conclusion of summary of the table we have to write with <tfoot></tfoot> tag
+3. it represent bottom most part of the table
+
+# Note:- Thread,tbody,tfoot tag are  highly recommended for better explanation to   and code understanding purpose
