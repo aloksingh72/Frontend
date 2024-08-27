@@ -230,7 +230,11 @@ Dated---> 22/Aug/2024/Thrusday
 
 Dated->27/Aug/2024
 
+ <!-- input tag ke andar name ka matlab hai ki hum brower ko batasake kis type ka data hai... -->
+# Basic difference between disabled and readonly <!-- disabled wala database me nhi jayega -->
+          <!-- readonly wala data backend me jayega -->
 
+add some notes point from github upload
 
 
 
