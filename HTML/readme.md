@@ -238,4 +238,49 @@ add some notes point from github upload
 
 
 
+Dated->28/Aug/2024
+# Data list
+notes from github
+# Text Area
+notes from github
+
+
+
+# Difference between id and class
+             ID
+             1.It is used to target element uniquely
+             2.Multiple elements can not have  the same id 
+             Ex- <p id="Ptag-1">Paragraph-1</p>
+                  <p id="Ptag-2">Paragraph-2</p>
+             3.One element can have only one id(Single id)
+             EX- <div id="div-1  tag-1  chambu">Div Tag</div>
+                       ------    -----  -----  
+                       First id   2 id    3 id  --- It must be single id ,(Here this is not possible).
+            4.To target the element in id we use # (hash) operator
+            5.It is global attribute we can use in any tag           
+
+
+
+          CLASS
+          1. It is used to target multiple element at a time.
+          2. Multiple elements can have the same class
+          Ex- <p class="Ptag">Paragraph-1</p>
+              <p class="Ptag">Paragraph-2</p>
+         3.One element have multiple classes.
+          Ex-  <div class=" div-1 tag-1 chambu" >Div Tag</div>
+                           -----  ----  -----
+                           1 value  2vl  3vl             multiple class value allowed
+
+
+         4.To target the element in class we use .(dot) operator.
+         5.It is also a global attribute so we can use in any tag.
+
+
+# differnce between span and div
+  div- it  is a block level Container
+  span - It is inline level containere
+
+# Media tag  
+
+
 

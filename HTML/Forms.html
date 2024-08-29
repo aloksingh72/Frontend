@@ -77,12 +77,39 @@
             <option value="2021">2021</option>
             <option value="2022">2022</option>
             <option value="2023">2023</option>
-         </select>
+         </select><br><br>
+         <!-- datalist se  -->
+         <input type="text" list="state-name" placeholder="Enter the location">
+        <datalist id="state-name">
+            <option value="Delhi"></option>
+            <option value="uttar pradesh"></option>
+            <option value="Maharashtra"></option>
+            <option value="Bihar"></option>
+
+
+        </datalist>
+        <br><br>
+        <!-- text area is multiline input field -->
+         <label for="state-list">User feedback details</label><br>
+        <textarea name="" id="state-list" rows="10" cols="30" placeholder="write something..."></textarea>
 
 
         <br><br>
         <button type="submit">Submit</button>
         <button type="reset">Cancel</button>
+        <button type="button">Menu</button>
+        <!-- impques-- differnce between input type submit and button tag ?
+         input type="submit"                     |          Button tag
+         1. It is non-container tag              | 1.  It is container tag
+         2.It will always try to connect to the  | 2.It willl not try to connect to the server
+         server if server is there it will send  | 3. It will reload th page but we can prevent using js 
+         the data.                               | 4. it will fully compatible with js
+         3. It will reload the page              | 5.
+          4. It is not fully compatible with js  |
+         5.In input type submit we can not use   | 
+         any other content to create a submit button| 
+          -->
+         <!--  -->
 
 
 
