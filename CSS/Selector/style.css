@@ -1,0 +1,13 @@
+.div-2,span {
+    color: red;
+}
+/* Direct child selector */
+article> p{
+    color: brown;
+}
+/* descendent selector */
+article p {
+    color: aqua;
+}
+
+/*  */

@@ -7,6 +7,9 @@
 4.ii.Description Definition
 5.Table
 6.Forms
+7.Media
+8.Semantic Tags
+
 
 
 
@@ -281,6 +284,22 @@ notes from github
   span - It is inline level containere
 
 # Media tag  
+
+
+
+Datad-> 30/Aug/2024
+# Semantic Tag
+  1.It is a self-explainatory tag
+  these are
+    i) Header
+    ii) Footer
+    iii) Section
+    iv) Article
+    v) Nav
+    vi)Main
+    vii) Aside
+
+
 
 
 
