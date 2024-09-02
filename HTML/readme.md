@@ -1,6 +1,6 @@
 <!-- content -->
-1.
-2.
+1.HTML introduction
+2.Text formating tag
 3.Hyperlinks 
 4.List 
 4.i.Description list 
@@ -36,10 +36,12 @@ path are two types:-
 
 *** note :- jisme agar https aata hai path is absolute path -->
 
+Dated->06/08/2024
+
  # Html HyperlINKS 
 it is used to link or connect the different doceuments to our web /html pages.
 ##STEPS TO CREATE THE HYPERLINKS
-1. First we have to mark the content to mark the content we use anchor tag (<a></a>) It is a container tag.
+1. First we have to mark the content, to mark the content we use anchor tag (<a></a>) It is a container tag.
 2.Monitor the path or location on Hyper refernce where we want user to be redirected we use (hrf) attribute.
 
 --------absolute path of hyperlinks----------------
@@ -50,7 +52,7 @@ Google
 **** States of Anchor Tag ****
 1.Not Visited --- uska color Skykblue
 2.Active:- Red  color 
-3.Vidited :-purple color rahega links ka
+3.Visited :-purple color rahega links ka
 
 
 -------------TARGET ATTRIBUTE-----
@@ -98,13 +100,13 @@ types of list
  3. reserved :reserved attribute is used to reverse the order of the orderd list.
 
 
-# Unordered list##########
+# Unordered list
  It is a group of related items respresented in an unorderd way i,e bullets are not follwing any sequence.
 
- to create a unordered list we use <ul></ul> tag. it is an container tag.
+ To create a unordered list we use <ul></ul> tag. it is an container tag.
  To create a list items we use <li></li> tag.
 
- # ATTRIBUTE OF UNORDERED LIST#######
+ # ATTRIBUTE OF UNORDERED LIST
  1.Type :- Type attribute is used to specify which type of bullets you want to represent.
        
        type:"____" values :- (disc ,circle,square,none)
@@ -129,7 +131,7 @@ types of list
 
 Dated 20/Aug/2024
 # Tables
-1.it is a cllection of rows and columns
+1.It is a collection of rows and columns
 2.Table is a grid organises in rows and columns much like a spreadsheet
 3.to create a table in html we use <table></table> tag.
 4.It is a container tag and Semantic tag( self explanatory) tag
@@ -164,8 +166,8 @@ Dated 20/Aug/2024
 # Cell spacing
 
 in html we have 2 ways to span the cells 
-1. Rowspan:- Rowspan is an attribute used to span the cells on row basis
-2.Colspan:- Rowspan is an attribute used to span the cells on column basis.
+1. Rowspan:- Rowspan is an attribute used to span(extends) the cells on row basis
+2.Colspan:- Rowspan is an attribute used to span(extends) the cells on column basis.
 
 # Attributes of table tag
 
@@ -173,7 +175,7 @@ in html we have 2 ways to span the cells
 2.Cellspacing:- to create space between outside the cell is known as cellspacing.
 3. Border :- It is used to provide border 
 4.rules="all"   (it collapse the boder of different -different cells border)
-5.align="center"
+5.align="center" used to center the items inside the cells.
 
 
 
@@ -202,7 +204,7 @@ Dated---> 22/Aug/2024/Thrusday
 2.To create a form in html we use <form></form> tag.
 3. It is a container tag.
 4. In html form we are accepting input from the user in an input field.
-5. To create inpit field  we use <input> tag It is non-container tag(Un-pair tag)
+5. To create input field  we use <input> tag It is non-container tag(Un-pair tag)
 
 # Attributes of input tag.
 1.Type: Type attribute is used to specify which type of data be can accept in an input field.
@@ -233,7 +235,7 @@ Dated---> 22/Aug/2024/Thrusday
 
 Dated->27/Aug/2024
 
- <!-- input tag ke andar name ka matlab hai ki hum brower ko batasake kis type ka data hai... -->
+ <!-- input tag ke andar name ka matlab hai ki hum brower ya server ko batasake kis type ka data hai... -->
 # Basic difference between disabled and readonly <!-- disabled wala database me nhi jayega -->
           <!-- readonly wala data backend me jayega -->
 
@@ -280,10 +282,11 @@ notes from github
 
 
 # differnce between span and div
-  div- it  is a block level Container
-  span - It is inline level containere
+  div- It  is a block level Container.
+  span - It is inline level Container.
 
-# Media tag  
+# Media tag
+used to connect the audio and video files  
 
 
 
