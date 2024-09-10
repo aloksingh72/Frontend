@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+
+
+}
+.section-1{
+    background-image: url(./5007452_68e5_3.jpg);
+}
+.section-2{
+    background-image: url(./5007452_68e5_3.jpg);
+
+}
+.section-3{
+    background-image: url(./5007452_68e5_3.jpg);
+
+}
+.section-4{
+    background-image: url(./5007452_68e5_3.jpg);
+
+}
+.section-5{
+    background-image: url(./5007452_68e5_3.jpg);
+
+}
+.section-6{
+    background-image: url(./5007452_68e5_3.jpg);
+
+}
+
+
+
+/* note 
+
+background clip:_____;
+value:-> border box
+         padding box , contentbox,text
+
+color transparent rakhna hoga
+
+
+bg-img:linear gradient (___,___,___,___,___)
+value-> 
+         */
