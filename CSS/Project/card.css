@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 30px;
+}
+
+.card {
+    height: 450px;
+    width: 300px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(179, 10, 10, 0.1), 0 6px 6px rgba(229, 14, 14, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card .profile {
+    width: 100%;
+    height: 390px;
+    overflow: hidden;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    position: relative;
+}
+
+.card .profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.card:hover .profile img {
+    transform: scale(1.1);
+}
+
+.card h2 {
+    text-align: center;
+    margin: 15px 0 25px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card .btn-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card .btn-container a {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #333;
+    color: white;
+    font-size: 17px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .btn-container a:first-of-type {
+    margin-right: 20px;
+}
+
+.card .btn-container a:hover {
+    transform: translateY(-3px);
+}
+
+.card .btn-container a:first-of-type:hover {
+    background-color: rgb(15, 114, 159);
+}
+
+.card .btn-container a:last-of-type:hover {
+    background-color: rgb(129, 10, 10);
+}
+
+/* Specific adjustment for card-2 */
+.card-2 .profile img {
+    object-position: -190px 0;
+}
