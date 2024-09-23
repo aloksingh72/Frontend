@@ -75,5 +75,42 @@ console.log(res);
 
 */
 
+/*
 // --> reduce methods
+
+let arr6 = [10,20,30,40,50,60,70];
+let ans = arr6.reduce((acc,curr)=>{
+   
+    return  acc+curr;
+},0)
+console.log(ans);
+
+*/
+
+
+/*
+//--> sort methods
+
+// ascending order
+let arr7 = [10,900,50,20,53,10,70];
+const res = arr7.sort();
+console.log(res);
+ 
+// Descending order
+const ans = arr7.sort((a,b)=>b-a);
+console.log(ans);
+
+//--->indexof methods
+let arr8 = [10,900,50,20,53,10];
+const result = arr8.indexOf(53);
+console.log(result);
+*/
+
+//for each
+let arr9 = [10,900,50,20,53,10];
+const a = arr9.forEach((values,index)=>{
+   let ans= arr9.push(values/10);
+
+})
+
 
