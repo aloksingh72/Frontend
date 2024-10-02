@@ -5,7 +5,7 @@
 printName();
 */
 
-/*function with arguments  
+/*------------->function with arguments  
 function fullName(firstName,lastName){
     let fullName = firstName + " " + lastName;
     return fullName;
@@ -17,7 +17,7 @@ console.log(Name);
 
 
 /*
-call back function 
+--------------->call back function 
 
 function company (call,name,city){
     call(name,city);
