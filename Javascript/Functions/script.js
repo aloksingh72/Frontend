@@ -46,3 +46,25 @@ const printName=(userName)=>{
 
 let ans = genric(printName,"Nobita");
 console.log(ans);
+
+
+
+
+// V-imp closure function
+
+/*
+closure me function ko reequired data ke saath bind kar diya jata hai
+    closure is (function + required data)
+*/ 
+
+function outerFunction(){
+    let name = "alok";
+    function innerFunction(){
+        console.log(name);
+        
+    }
+    return innerFunction;
+}
+
+let inner = outerFunction();
+inner();//here inner function gives names as output due to closure
